@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "idList": "617dbb6b912a6b619944ceab",
+      "name": "Segunda Feira",
+      "desc": "Estudar Java das 20h as 21h"
+    }
+  ],
+  "required": [
+    "idList"
+  ],
+  "properties": {
+    "idList": {
+      "$id": "#/properties/idList",
+      "type": "string",
+      "title": "The idList schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "617dbb6b912a6b619944ceab"
+      ]
+    },
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string",
+      "title": "The name schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Segunda Feira"
+      ]
+    },
+    "desc": {
+      "$id": "#/properties/desc",
+      "type": "string",
+      "title": "The desc schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Estudar Java das 20h as 21h"
+      ]
+    }
+  },
+  "additionalProperties": true
+}
