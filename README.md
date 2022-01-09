@@ -27,6 +27,3 @@ __#COMO REPRODUZIR__
 Para reproduzir o projeto na sua máquina, abra seu terminal e execute o comando 
 
 git clone https://github.com/nairabrito/apiTrelloAutomacao.git
-
-Já existe um card cadastrado. Sendo assim, já é possível rodar os testes de GET, PUT e DELETE para esse card.
-Para criar um novo card também já existe uma massa pronta no pacote resources/requestBody/card.json.
